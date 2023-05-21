@@ -1,0 +1,213 @@
+
+@import url('https://fonts.googleapis.com/css2? family= Inter & family= Montserrat:wght@100 & family= PT+Serif:ital@1 & display=swap');
+
+body {
+    background: linear-gradient( #4b24cb, rgb(226, 224, 232));
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.cabecalho {
+    display: flex; 
+    justify-content: space-between;
+    padding: 2%;
+
+}
+
+.cabecalho h1 {
+    color: rgb(31, 30, 30);
+}
+
+.cabecalho img {
+    max-width: 70px;
+    max-height: 70px;
+    width: auto;
+    height: auto;
+}
+
+.container-input {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+
+}
+
+.container-input .input {
+    width: 400px;
+    height: 330px;
+}
+
+#input-texto {
+    width: 335px;
+    height: 330px;
+    font-size: 20px;
+    color: whitesmoke;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    padding: 10px;
+    text-align: lowercase;
+
+}
+
+.input textarea::placeholder {
+    color: rgb(224, 216, 216);
+}
+
+.input p {
+    padding-top: 100px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'inter', sans-serif;
+    color: rgb(57, 56, 56);
+}
+
+ .img-vector {
+    padding-top: 6%;
+}
+
+#output {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid;
+    border-radius: 20px;
+    width: 360px;
+    height: 500px;
+    margin-right: 3%;
+}
+
+#output .mensagem {
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-top: 5px;
+    padding-left: 5px;
+    position: fixed;
+    color: white;
+}
+
+
+#output img {
+    text-align: center;
+    margin: auto;
+}
+
+#output h2 {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+
+}
+
+#output span {
+    font-size: 16px;
+    text-align: center;
+}
+
+#output img {
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#botoes {
+    padding-left: 40px;
+    padding-bottom: 4%;
+    font-size: 30px;
+    display: flex;
+}
+
+#botoes button{
+    border-radius: 25px;
+    text-decoration: none;
+    width: 150px;
+    height: 50px;
+    margin-left: 1%;
+    cursor: pointer;
+    background-color: rgb(143, 128, 217);
+    font-weight: bold;
+    color: aliceblue;
+    border: aliceblue;
+
+}
+
+.btn-copiar {
+    border: 2px solid;
+    border-radius: 25px;
+    text-decoration: none;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-left: 30%;
+    cursor: pointer;
+    background-color: rgb(143, 128, 217);
+    font-weight: bold;
+    color: aliceblue;
+    border: aliceblue;
+}
+
+#botoes button:hover {
+    border: 2px solid;
+    color: #330a71;
+    transition: 0.5 all;
+}
+
+.rodape {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 45px;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+
+.rodape h3 {
+    text-align: center;
+    color: rgb(164, 157, 157);
+    font-family: 'inter', sans-serif;
+    font-weight: 10px;
+    font-style: italic;
+}
+
+
+.rodape:hover {
+    font-size: 16px;
+    border: 2px solid;
+    color: #E5E5E5;
+}
+
+.icons ion-icon {
+    width: 25px;
+    height: 25px;
+    color:#4b24cb;
+}
+
+.icons ion-icon:hover {
+    color: black;
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+

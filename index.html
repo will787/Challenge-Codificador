@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/logoalura.png">
+
+    <title>ONE</title>
+</head>
+<body>
+    <main>      
+        <header class="cabecalho">
+                        
+                <img src="imagens/logoalura.png" class="logoalura" alt="Logo da Alura">
+                <h1></h1>
+
+        </header>
+        
+        <div class="container-input">
+            <div class="input">  
+                <textarea id="input-texto" placeholder="Digite seu texto" style="resize:none;"></textarea>;
+                <p><img src="imagens/Vector (2).png" class="img-vector"> Apenas letras minúsculas e sem acento.</p>
+            </div>
+        
+            <div id="output">
+                <img src="imagens/boneco.png" alt="boneco alura">
+                <h2>Nenhuma mensagem encontrada</h2>
+                <span>Digite um texto que você deseja criptografar ou descriptografar.</span>
+                <button class="btn-copiar" id="copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </div>
+
+        <div id="botoes">
+            <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+            <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+            <button onclick="apagarTexto()" class="btn-limpar">Limpar</button>
+        </div>
+    </main>
+    
+    <footer class="rodape">
+        <div class="icons">
+            <h3 class="copyright">&copy; 2023 - Desenvolvido por William Vieira</h3>
+            <a href="https://github.com/will787"><ion-icon name="logo-github"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/william-v1/"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+    <script  type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> 
+    <script  nomodule  src = "https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
