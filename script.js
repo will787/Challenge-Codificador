@@ -27,12 +27,20 @@ function descriptografar() {
 
 
 function copiar() {
-    var textoCop = document.getElementById('input-texto');
-    textoCop.select();
-    document.execCommand('copy');
-
+    
+   
+    var textoCop = document.querySelector('#output textarea').value;
+        navigator.
+       
+    clipboard.writeText(textoCop);
+    
+        
+    
+       
+    
+    
     alert('Seu texto foi copiado');
-}
+    }
 
 function apagarTexto() {
      var TextInput = document.querySelector('#input-texto'); 
