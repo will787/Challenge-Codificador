@@ -1,4 +1,6 @@
+<div align="center">
 <h1>PROJETO CRIPTOGRAFIA DE PALAVRAS</h1>
+</div>
 
 <p>Olá, bom esse foi meu primeiro projeto, foi proposto um challenge através do aprendizado que vinha-se tendo, com isso desenvolvi implementado com a forma que tive aptidão.
 Bom pode-se dizer que os últimos passos foi que mais absorvi em todo projeto.</p><br>
