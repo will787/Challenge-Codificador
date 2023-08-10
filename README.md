@@ -14,4 +14,7 @@ Bom pode-se dizer que os últimos passos foi que mais absorvi em todo projeto.</
 <img src="https://github.com/will787/Challenge-Codificador/assets/130716554/75bfd56f-0e33-45af-91f8-92aad5eb41c2">
 
 
-<img src="">
+<div align="center">
+  <h2>Badge do challenge concluído.</h2><br>
+  <img src="https://github.com/will787/Challenge-Codificador/assets/130716554/cc2ddee6-8e25-49ff-82b5-ceb7096ff6bc">
+</div>
