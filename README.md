@@ -18,3 +18,8 @@ Bom pode-se dizer que os últimos passos foi que mais absorvi em todo projeto.</
   <h2>Badge do challenge concluído.</h2><br>
   <img src="https://github.com/will787/Challenge-Codificador/assets/130716554/cc2ddee6-8e25-49ff-82b5-ceb7096ff6bc">
 </div>
+
+<div>
+  <h3>Vou deixar link caso queira dar uma olhada em como funciona um pouquinho desse codificador.</h2>
+  <p>https://will787.github.io/Challenge-Codificador/</p>
+</div>
